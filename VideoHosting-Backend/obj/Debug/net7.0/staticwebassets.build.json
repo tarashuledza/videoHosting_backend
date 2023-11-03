@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "LbzVkXIkz8D0DQI5z6iJxhNvFkG1O/cqkuorRAr6SKQ=",
+  "Source": "VideoHosting-Backend",
+  "BasePath": "_content/VideoHosting-Backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
