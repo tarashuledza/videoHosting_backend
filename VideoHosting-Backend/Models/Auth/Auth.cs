@@ -1,6 +1,6 @@
 ﻿using System.Reflection.Metadata;
 
-namespace Web_API.Models.ProfileModels
+namespace VideoHosting_Backend.Models.Auth
 {
     public class Auth
     {
@@ -9,6 +9,8 @@ namespace Web_API.Models.ProfileModels
         public string LastName { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
+        public string Thumbnail { get; set; }
+        public int Subscribers { get; set; }
     }
 }
 

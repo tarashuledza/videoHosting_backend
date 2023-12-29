@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\VideoHosting-Backend",
+    "\\VideoHosting-Backend\\Controllers",
+    "\\VideoHosting-Backend\\Models",
+    "\\VideoHosting-Backend\\Models\\Video"
+  ],
+  "SelectedNode": "\\VideoHosting-Backend\\Controllers\\AuthController.cs",
+  "PreviewInSolutionExplorer": false
+}

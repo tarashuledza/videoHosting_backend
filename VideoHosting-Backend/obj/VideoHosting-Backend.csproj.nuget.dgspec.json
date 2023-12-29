@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\taras\\OneDrive\\Рабочий стол\\VideoHosting-Backend\\VideoHosting-Backend\\VideoHosting-Backend.csproj": {}
+    "C:\\Users\\taras\\OneDrive\\Рабочий стол\\VideoHosting\\VideoHosting-backend\\VideoHosting-Backend\\VideoHosting-Backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\taras\\OneDrive\\Рабочий стол\\VideoHosting-Backend\\VideoHosting-Backend\\VideoHosting-Backend.csproj": {
+    "C:\\Users\\taras\\OneDrive\\Рабочий стол\\VideoHosting\\VideoHosting-backend\\VideoHosting-Backend\\VideoHosting-Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\taras\\OneDrive\\Рабочий стол\\VideoHosting-Backend\\VideoHosting-Backend\\VideoHosting-Backend.csproj",
+        "projectUniqueName": "C:\\Users\\taras\\OneDrive\\Рабочий стол\\VideoHosting\\VideoHosting-backend\\VideoHosting-Backend\\VideoHosting-Backend.csproj",
         "projectName": "VideoHosting-Backend",
-        "projectPath": "C:\\Users\\taras\\OneDrive\\Рабочий стол\\VideoHosting-Backend\\VideoHosting-Backend\\VideoHosting-Backend.csproj",
+        "projectPath": "C:\\Users\\taras\\OneDrive\\Рабочий стол\\VideoHosting\\VideoHosting-backend\\VideoHosting-Backend\\VideoHosting-Backend.csproj",
         "packagesPath": "C:\\Users\\taras\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\taras\\OneDrive\\Рабочий стол\\VideoHosting-Backend\\VideoHosting-Backend\\obj\\",
+        "outputPath": "C:\\Users\\taras\\OneDrive\\Рабочий стол\\VideoHosting\\VideoHosting-backend\\VideoHosting-Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\taras\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Google.Apis.Auth": {
+              "target": "Package",
+              "version": "[1.64.0, )"
+            },
+            "Google.Apis.Drive.v3": {
+              "target": "Package",
+              "version": "[1.64.0.3155, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.2, )"
@@ -69,6 +77,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
